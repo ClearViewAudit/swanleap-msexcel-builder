@@ -1,6 +1,6 @@
 {
-  "author": "Charlie Zheng <chuanyi.zheng@gmail.com>",
-  "name": "msexcel-builder",
+  "author": "Fernando Hinojosa",
+  "name": "swanleap-msexcel-builder",
   "description": "A tiny library to create Microsoft Office Excel(2007) files under Nodejs.",
   "tags": [
     "xlsx",
@@ -9,10 +9,10 @@
   "version": "0.1.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/chuanyi/msexcel-builder.git"
+    "url": "git://github.com/ClearViewAudit/swanleap-msexcel-builder.git"
   },
   "bugs": {
-    "url": "https://github.com/chuanyi/msexcel-builder/issues"
+    "url": "https://github.com/ClearViewAudit/swanleap-msexcel-builder/issues"
   },
   "main": "./lib/msexcel-builder.js",
   "engines": {
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "async": "~0.2.6",
-    "jszip": "^2.5.0",
+    "jszip": "^3.10.1",
     "xmlbuilder": ">=0.4.2"
   }
 }
